@@ -1,13 +1,8 @@
 import { faker } from '@faker-js/faker'
 
-/** This option use for a Page Object Design framework example:
-import User from "../users/User";
-import RegisterPage from "../pages/RegisterPage";
-*/
-
 it('Register a user', () => {
 
-    /** his option use for a Page Object Design framework example:
+    /** This option use for a Page Object Design framework example:
     const user = new User();
 	const registerPage = new RegisterPage();
 	registerPage.load();

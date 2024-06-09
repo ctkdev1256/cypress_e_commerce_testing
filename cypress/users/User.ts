@@ -23,13 +23,5 @@ export default class User {
 	getPassword() {
 		return this.password;
 	}
-
-	getToken() {
-		return this.token;
-	}
-
-	setToken(token: string) {
-		this.token = token;
-	}
 }
 */

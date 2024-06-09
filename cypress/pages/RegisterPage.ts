@@ -29,11 +29,5 @@ export default class RegisterPage {
 		cy.get(this.passwordInput).type(user.getPassword());
 		cy.get(this.registerButton).click();
 	}
-
-	// registerUsingAPI(user: User) {
-	// 	return new UserAPI().register(user).then((response) => {
-	// 		user.setToken(response.body.access_token);
-	// 	});
-	// }
 }
 */
